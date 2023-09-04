@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Language Translator</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,600" rel="stylesheet">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="style.css">  
+</head>
+<body>
+   
+<div id="container"> 
+    <div class="select-lang">
+        <span><select id="lang1"></select></span>
+        <span> <i class="fa fa-exchange"></i></span>
+        <span><select id="lang2"></select></span>
+    </div>
+     <div class="translater-text">
+        <textarea id="user" placeholder="Enter text here..."></textarea>
+        <button id="clear"><i class="fa fa-trash"></i> CLEAR</button>
+        <button id="translate">Translate</button>
+    </div>
+</div>
+     
+<div class="output">
+    <textarea id="output" readonly></textarea>
+    <span> Created By PrabhatS</span> 
+</div>  
+<!-- Script Line -->
+<script src="script.js"></script>
+
+</body>
+</html>

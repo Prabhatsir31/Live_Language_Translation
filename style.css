@@ -1,0 +1,112 @@
+* 
+{ 
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+}
+body 
+{ 
+    margin:0; 
+    font-family: Rubik; 
+    position:fixed; 
+    top:0; 
+    width:100%; 
+    height:100%;
+}
+#container 
+{ 
+    background:royalblue; 
+    padding-bottom:5px; 
+}
+.select-lang 
+{ 
+    text-align: center;
+}
+.select-lang span:nth-child(1) 
+{ 
+    float: left;
+}
+.select-lang span:nth-child(2) 
+{ 
+    display: inline-block; 
+    padding:10px; 
+    color:#fff;
+}
+.select-lang span:nth-child(3) 
+{ 
+    float: right;
+}
+.select-lang span select 
+{ 
+    padding:10px; 
+    background: transparent; 
+    border: none; 
+    color:#fff; 
+    font-family:Rubik;
+}
+.translater-text 
+{ 
+    background:#fff; 
+    margin:0 5px 0px 5px; 
+    overflow:hidden;
+}
+.translater-text textarea 
+{ 
+    border: none; 
+    width:90%; 
+    font-size:18px; 
+    padding:10px; 
+    height:50px; 
+    outline: none; 
+}
+#translate 
+{ 
+    padding:10px; 
+    background: #BDB76B; 
+    border: none; 
+    border-radius:3px;
+    color: #222; 
+    font-weight: bold;
+    margin:0 5px 5px 5px; 
+    float: right;
+}
+#clear 
+{ 
+    padding:10px; 
+    background: transparent; 
+    border: none; 
+    color: #222; 
+    font-weight: bold; 
+    margin:0 5px 5px 5px;
+}
+#clear .fa 
+{ 
+    margin-right:5px; 
+    color: royalblue; 
+    font-size:18px;
+}
+.output 
+{
+    background: lavender; 
+    border-bottom:1px solid royalblue; 
+}
+#output 
+{ 
+    background: transparent; 
+    width:100%; 
+    border: none; 
+    font-size:18px; 
+    padding:10px; 
+}
+#output:hover 
+{  
+    height: 150px;
+    outline: none;
+}
+.output span 
+{ 
+    display:block; 
+    color:royalblue; 
+    text-align: right; 
+    padding:10px;
+}
